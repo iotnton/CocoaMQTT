@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name        = "CocoaMQTT"
   s.version     = "1.0.7"
   s.summary     = "MQTT v3.1.1 client library for iOS and OS X written with Swift 2"
-  s.homepage    = "https://github.com/emqtt/CocoaMQTT"
+  s.homepage    = "https://github.com/iotnton/CocoaMQTT"
   s.license     = { :type => "MIT" }
   s.authors     = { "Feng Lee" => "feng@emqtt.io", "CrazyWisdom" => "zh.whong@gmail.com" }
 
