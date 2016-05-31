@@ -361,7 +361,8 @@ public class CocoaMQTT: NSObject, CocoaMQTTClient, GCDAsyncSocketDelegate, Cocoa
             aliveTimer = MSWeakTimer.scheduledTimerWithTimeInterval(
                 NSTimeInterval(keepAlive),
                 target: self,
-                selector: #selector(CocoaMQTT._aliveTimerFired),
+                //selector: #selector(CocoaMQTT._aliveTimerFired),
+                selector: "_aliveTimerFired",
                 userInfo: nil,
                 repeats: true,
                 dispatchQueue: dispatch_get_main_queue())
